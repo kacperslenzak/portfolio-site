@@ -29,7 +29,7 @@ export function FeaturedProjects() {
                             <p className="text-sm text-muted-foreground">{project.tech}</p>
                         </div>
                         <div>
-                            <Link href="https://vintage-terms.com" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground gap-2 flex items-center hover:underline">
+                            <Link href={project.url} target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground gap-2 flex items-center hover:underline">
                                 View Project
                                 <ExternalLinkIcon className="size-3 inline-block" />
                             </Link>
