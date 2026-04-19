@@ -13,11 +13,11 @@ export function Header() {
                 </p>
                 <SocialLinks />
             </div>
-            <div className="relative group">
+            {/* <div className="relative group">
                 <span className="relative flex shrink-0 overflow-hidden rounded-full size-28">
                     <Image src={PORTOLFIO_DATA.photo} alt={PORTOLFIO_DATA.name} fill className="object-cover" />
                 </span>
-            </div>
+            </div> */}
         </div>
     )
 }
