@@ -1,6 +1,4 @@
 import { SocialLinks } from "@/components/social-links"
-import { PORTOLFIO_DATA } from "@/data/portfolio-data"
-import Image from "next/image"
 
 export function Header() {
     return (
