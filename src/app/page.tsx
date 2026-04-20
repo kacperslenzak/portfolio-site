@@ -3,6 +3,7 @@ import { About } from "@/components/about";
 import { FeaturedProjects } from "@/components/featured-projects";
 import { Technologies } from "@/components/technologies";
 import WorkExperience from "@/components/work-experience";
+import GithubHeatmap from "@/components/github-heatmap";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <About />
         <Technologies />
         <FeaturedProjects />
+        <GithubHeatmap username="kacperslenzak" />
         <WorkExperience />
       </section>
     </main>
